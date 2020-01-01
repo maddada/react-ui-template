@@ -453,6 +453,7 @@ body {
     width: fit-content !important;
   }
 }
+
 @media screen and (max-width: 960px) {
   .item-row {
     padding-bottom: 25px !important; // area for scrolling
@@ -471,6 +472,10 @@ body {
   .mobile-menu {
     display: flex;
     flex-direction: column;
+  }
+
+  .filter-area {
+    margin-top: 15px;
   }
 }
 

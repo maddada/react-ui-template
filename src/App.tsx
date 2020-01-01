@@ -82,13 +82,17 @@ const App = () => {
     if (isWide === false) sidebarRef.current.hide();
   };
 
+  window.addEventListener("resize", () => {
+    if (isMenuActive === true) {
+      setMenuActive(false);
+    }
+  });
+
   function toggleMenu() {
     if (isMenuActive === true) {
       setMenuActive(false);
-      // sidebarRef.current.element.style.maxHeight = "0";
     } else {
       setMenuActive(true);
-      // sidebarRef.current.element.style.maxHeight = "500px";
     }
   }
 
@@ -110,17 +114,6 @@ const App = () => {
         "e-input-focus"
       );
     }
-  }
-
-  function onIconMouseDown(args: React.MouseEvent) {
-    args.persist();
-    setTimeout(() => {
-      (args.target as HTMLElement).classList.add("e-input-btn-ripple");
-    }, 300);
-  }
-
-  function onIconMouseUp(args: React.MouseEvent) {
-    (args.target as HTMLElement).classList.remove("e-input-btn-ripple");
   }
 
   return (
@@ -153,8 +146,6 @@ const App = () => {
             <input className="e-input" type="text" onFocus={onInputFocus} onBlur={onInputBlur} placeholder="بحث" />
             <span
               className="e-input-group-icon e-input-search"
-              onMouseDown={onIconMouseDown}
-              onMouseUp={onIconMouseUp}
             />
           </div>
         </div>
