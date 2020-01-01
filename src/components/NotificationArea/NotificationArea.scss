@@ -1,0 +1,33 @@
+.notification-container {
+  position: relative;
+  margin-inline-start: 20px;
+}
+
+.e-notification {
+  background-color: rgb(255, 255, 255) !important;
+  width: 35px !important;
+  height: 35px !important;
+  margin: auto 0 !important;
+  border-radius: 50% !important;
+  color: #01A5DD;
+  user-select: none;
+  outline: 0;
+  cursor: pointer;
+  margin-top: 6px !important;
+}
+
+.e-notification-number {
+  position: absolute;
+  background-color: rgba(110,195,11, 0.7) !important;
+  width: 20px !important;
+  height: 20px !important;
+  top: -7px;
+  right: -5px;
+  border-radius: 50% !important;
+  color: white;
+  font-weight: bold;
+  user-select: none;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 6px !important;
+}

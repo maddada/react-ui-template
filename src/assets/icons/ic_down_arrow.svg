@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>ic_down_arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="all-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone-landscape" transform="translate(-61.000000, -167.000000)" fill="#3CACD9">
+            <g id="grade" transform="translate(37.000000, 111.000000)">
+                <path d="M33.4404113,60.338509 L37.6528387,67.8272688 C38.4109773,69.1750708 37.9329607,70.8822729 36.5851588,71.6404115 C36.1660502,71.8761601 35.6932906,72 35.2124274,72 L26.7875726,72 C25.2411754,72 23.9875728,70.7463974 23.9875728,69.2000002 C23.9875728,68.7191371 24.1114127,68.2463774 24.3471613,67.8272688 L28.5595887,60.338509 C29.3177273,58.9907071 31.0249294,58.5126905 32.3727314,59.2708291 C32.8196799,59.5222376 33.1890028,59.8915605 33.4404113,60.338509 Z" id="ic_down_arrow" transform="translate(31.000000, 64.000000) scale(1, -1) translate(-31.000000, -64.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
